@@ -1,0 +1,34 @@
+/* base css */
+@import './base/reset.css';
+@import './base/variables.css';
+
+/*layout*/
+@import './base/layout.css';
+/*variables*/
+
+/*3rd party*/
+
+/*Components*/
+@import './components/button.css';
+
+/* Custom style below*/
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    align-items: center;
+    align-self: center;
+    background-color: var(--neutral-veryPaleBlue-color);
+    margin-left: calc(50% - 225px);
+    /* transform: translate(-50%); */
+    transform: translateY(25%);
+    font-size: 16px;
+    
+}
+
+.product{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
