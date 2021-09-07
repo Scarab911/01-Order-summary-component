@@ -77,10 +77,33 @@ p{
     font-weight: 500;
 }
 a{
-    color: var(--primary-brightBlue-color);   
+    color: var(--primary-brightBlue-color); 
+    cursor: pointer;  
 }
-
+a:hover{
+    text-decoration: none;
+    font-weight: 900;
+    color: var(--primary-desaturatedBlue-color);
+}
 .cancel{
 text-decoration: none;
 color: var(--neutral-desaturatedBlue-color);
+}
+
+.cancel:hover{
+    color: var(--neutral-darkBlue-color);
+}
+
+@media(max-width:450px){
+    .main-container {
+    margin-top: 3px;
+    max-width: 375px;
+}
+.content {
+    padding: 5px 25px;
+    gap: 10px;
+}
+.product-container>a{
+    margin-left: 57px;
+}
 }
