@@ -7,4 +7,5 @@
     border: solid 1px var(--neutral-darkBlue-color);
     border-radius: 10px;
    box-shadow: var(--primary-paleBlue-color) 0px 20px 5px -3px;
+   cursor: pointer;
 }

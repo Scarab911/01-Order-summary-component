@@ -27,5 +27,5 @@ body * {
 }  */
 body{
     background-color: var(--primary-paleBlue-color);
-    font-family:'Red Hat Display', sans-serif;
+    /* font-family:'Red Hat Display', sans-serif; */
 }

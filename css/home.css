@@ -6,19 +6,29 @@
 @import './base/layout.css';
 /*variables*/
 
-/*3rd party*/
-
 /*Components*/
 @import './components/button.css';
+
+/*3rd party*/
+@font-face {
+    font-family: RedHat;
+    src: url(../fonts/RedHatDisplay-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: RedHatBold;
+    src: url(../fonts/RedHatDisplay-Bold.ttf)format('truetype');
+    weight: 900;
+}
 
 /* Custom style below*/
 
 .main-container{
     display: flex;
     flex-direction: column;
-    margin-top: 25px;
+    margin-top: 5px;
     max-width: 450px;
     margin-left: calc(50% - 225px);
+    font-family: RedHat;
     font-size: 16px;
     border-radius: 15px;
     overflow: hidden;
@@ -39,7 +49,7 @@
     width: 100%;
     align-items: center;
     gap: 20px;
-    background-color: var(--primary-paleBlue-color);
+    background-color: var(--primary-desaturatedPaleBlue-color);
     color: var(--neutral-desaturatedBlue-color);
     border-radius: 15px;
     padding: 17px;
@@ -51,6 +61,7 @@
 
 h1{
     color: var(--neutral-darkBlue-color);
+    font-family: RedHatBold;
 }
 p{
     text-align: center;
@@ -59,6 +70,7 @@ p{
 }
 .about .title{
     color: var(--neutral-darkBlue-color);
+    font-family: RedHatBold;
     font-weight: 900;
 }
 .price{
