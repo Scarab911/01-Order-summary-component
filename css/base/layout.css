@@ -11,8 +11,9 @@ body{
      body{
     max-width: 375px;
 }
-.attribution {
-display:none;
+}
+@media (max-width:768px) {
+    .attribution {
+        display:none;
 }
 }
-

@@ -25,7 +25,6 @@
 .main-container{
     display: flex;
     flex-direction: column;
-    margin-top: 5px;
     max-width: 450px;
     margin-left: calc(50% - 225px);
     font-family: RedHat;
@@ -94,16 +93,30 @@ color: var(--neutral-desaturatedBlue-color);
     color: var(--neutral-darkBlue-color);
 }
 
-@media(max-width:450px){
+@media(max-width:375px){
     .main-container {
-    margin-top: 3px;
     max-width: 375px;
+    margin: 0;
+    gap: 0;
+    
 }
 .content {
     padding: 5px 25px;
     gap: 10px;
 }
+.product-container{
+    justify-content: space-between;
+    gap: 0;
+}
 .product-container>a{
     margin-left: 57px;
 }
+body{
+    padding: 10px;
 }
+.cancel{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+}
+
