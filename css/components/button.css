@@ -9,3 +9,8 @@
    box-shadow: var(--primary-paleBlue-color) 0px 20px 5px -3px;
    cursor: pointer;
 }
+
+.btn:hover{
+     background-color: var(--primary-lighterbrightBlue-color);
+     border: solid 1px;
+}
