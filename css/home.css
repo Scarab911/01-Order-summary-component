@@ -105,7 +105,11 @@ a:hover{
 }
 
 @media(max-width:460px){
+.main-container{
+        height: 620px;
+    }
 .content {
+    height: 400px;
     padding: 5px 35px;
     gap: 10px;
 }
