@@ -119,4 +119,30 @@ body{
     margin-bottom: 20px;
 }
 }
+@media(max-width:320px){
+    .main-container {
+    max-width: 320px;
+    margin: 0;
+    gap: 0;
+    
+}
+.content {
+    padding: 5px 15px;
+    gap: 10px;
+}
+.product-container{
+    justify-content: space-between;
+    gap: 0;
+}
+.product-container>a{
+    margin-left: 0;
+}
+body{
+    padding: 10px;
+}
+.cancel{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+}
 
