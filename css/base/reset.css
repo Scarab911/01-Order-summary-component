@@ -7,26 +7,7 @@ body * {
     word-break: break-all;
 }
 
-/* @font-face {
-    font-family: 'RedHatDisplay';
-    src: url(../../fonts/RedHatDisplay-Regular.ttf) format('truetype');
-    font-weight: 500;
-    font-display: swap;
-} 
-@font-face {
-    font-family: 'RedHatDisplay';
-    src: url(../../fonts/RedHatDisplay-Regular.ttf) format('truetype');
-    font-weight: 700;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'RedHatDisplay';
-    src: url(../../fonts/RedHatDisplay-Regular.ttf) format('truetype');
-    font-weight: 900;
-    font-display: swap;
-}  */
 body{
     background-color: var(--primary-paleBlue-color);
-    /* font-family:'Red Hat Display', sans-serif; */
     padding: 10px;
 }

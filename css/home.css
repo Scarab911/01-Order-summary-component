@@ -31,7 +31,11 @@
     font-size: 16px;
     border-radius: 15px;
     overflow: hidden;
-    
+}
+.hero{
+    height: 220px;
+    background-position: center;
+    background-image: url(../images/illustration-hero.svg);
 }
 .content{
     display: flex;
@@ -85,8 +89,10 @@ a:hover{
     color: var(--primary-desaturatedBlue-color);
 }
 .cancel{
-text-decoration: none;
-color: var(--neutral-desaturatedBlue-color);
+    text-decoration: none;
+    color: var(--neutral-desaturatedBlue-color);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .cancel:hover{
@@ -95,10 +101,7 @@ color: var(--neutral-desaturatedBlue-color);
 
 @media(max-width:375px){
     .main-container {
-    max-width: 375px;
     margin: 0;
-    gap: 0;
-    
 }
 .content {
     padding: 5px 25px;
@@ -114,35 +117,30 @@ color: var(--neutral-desaturatedBlue-color);
 body{
     padding: 10px;
 }
-.cancel{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 }
 @media(max-width:320px){
-    .main-container {
-    max-width: 320px;
-    margin: 0;
-    gap: 0;
-    
-}
+
 .content {
     padding: 5px 15px;
     gap: 10px;
 }
-.product-container{
-    justify-content: space-between;
-    gap: 0;
-}
+
 .product-container>a{
     margin-left: 0;
 }
-body{
-    padding: 10px;
+
 }
-.cancel{
-    margin-top: 20px;
-    margin-bottom: 20px;
+@media(max-width:425px){
+    .product-container{
+    justify-content: space-between;
+    gap: 0;
+}
+
+.product-container>a{
+    margin-left: 40px;
+}
+.main-container {
+    margin: 0; 
 }
 }
 
