@@ -105,7 +105,11 @@ a:hover{
 }
 
 @media(max-width:460px){
-    .product-container{
+.content {
+    padding: 5px 35px;
+    gap: 10px;
+}
+.product-container{
     justify-content: space-between;
     gap: 0;
 }
