@@ -1,10 +1,15 @@
-:root{
-    --primary-paleBlue-color:hsl(225, 100%, 94%);
-    --primary-desaturatedPaleBlue-color:hsla(225, 100%, 94%, 0.3);
-    --primary-brightBlue-color:hsl(245, 75%, 52%);
-    --primary-lighterbrightBlue-color:hsl(245, 70%, 59%);
-    
-    --neutral-veryPaleBlue-color:hsl(225, 100%, 98%);
-    --neutral-desaturatedBlue-color:hsl(224, 23%, 55%);
-    --neutral-darkBlue-color:hsl(223, 47%, 23%);
+:root {
+  /*COLORS*/
+  --primary-paleBlue-color: hsl(225, 100%, 94%);
+  --primary-desaturatedPaleBlue-color: hsla(225, 100%, 94%, 0.3);
+  --primary-brightBlue-color: hsl(245, 75%, 52%);
+  --primary-lighterbrightBlue-color: hsl(245, 70%, 59%);
+
+  --neutral-veryPaleBlue-color: hsl(225, 100%, 98%);
+  --neutral-desaturatedBlue-color: hsl(224, 23%, 55%);
+  --neutral-darkBlue-color: hsl(223, 47%, 23%);
+
+  /*FONTS*/
+
+  --fnt-main: 'Red Hat Display', sans-serif;
 }
